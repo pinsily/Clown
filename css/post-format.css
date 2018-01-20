@@ -1,0 +1,68 @@
+.article {
+
+ 
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    
+    font-size: 14px;
+    line-height: 1.8;
+
+}
+
+.article p {
+
+  font-family: Verdana,Arial,Helvetica,sans-seri;
+  font-size:14px;
+  line-height: 2.8;
+
+
+}
+
+.articleinfo {
+
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+    	font-size: 10px;
+    	line-height: 2.8;
+
+}
+
+.articleinfo img{
+
+	width:100%;
+	border-radius:10px;
+	box-shadow: 0 3px #aaaaaa;
+	margin:0 auto;
+	text-align:center;
+  	vertical-align:middle;
+
+}
+
+
+
+
+
+.article li {font-size: 14px;}
+
+pre {
+    padding: 0px 24px;
+    max-width: 750px;
+    white-space: pre-wrap;
+}
+
+code {
+    font-family: Consolas, Monaco, Andale Mono, monospace;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+table {margin:0 auto;}
+
+table, th, td{
+	border: 1px solid black;
+  }
+
+td,th {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+table thead {text-align: center;}

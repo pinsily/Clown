@@ -1,0 +1,328 @@
+﻿body {
+
+	/*background-image: url(./2.jpg);*/
+	/*background-color: rgb(226,226,226);*/
+	/*background-color: #ffffff;*/
+	/*font-family: Times, TimesNR, 'New Century Schoolbook',
+     Georgia, 'New York', serif;*/
+	
+    /*background-image: url(../images/bg_image.jpg);	*/
+    
+	/*background-repeat:no-repeat; 
+	background-attachment:fixed;*/
+	/*background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;*/
+	/*font-family:KaiTi;*/
+	background-color: rgba(221,221,221,0.9);
+	line-height: 1.5em;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+}
+
+
+.self-container {
+
+	width: 100%;
+	max-width: 800px;
+	background-color: #ffffff;
+	background-color: rgba(255,255,255,0.7);
+	margin-top: 90px;
+
+
+}
+
+.headimage {
+
+	
+	/*margin: 30px,10px,10px,10px;*/
+	margin: 30px;
+	text-align: center;
+
+}
+
+
+.headimage_ {  
+	width: 150px;  
+	height: 150px;  
+	margin: 0 auto;  
+	background: no-repeat url("../images/12.jpg") left top;  
+	-webkit-background-size: 150px 150px;  
+	-moz-background-size: 150px 150px;  
+	background-size: 150px 150px;  
+	-webkit-border-radius: 110px;  
+	border-radius: 110px;  
+	-webkit-transition: -webkit-transform 1s ease-out;  
+	-moz-transition: -moz-transform 1s ease-out;  
+	-o-transition: -o-transform 1s ease-out;  
+	-ms-transition: -ms-transform 1s ease-out;
+	border:5px solid #96c2f1;  
+}  
+.headimage_:hover {  
+	-webkit-transform: rotateZ(360deg);  
+	-moz-transform: rotateZ(360deg);  
+	-o-transform: rotateZ(360deg);  
+	-ms-transform: rotateZ(360deg);  
+	transform: rotateZ(360deg);  
+}  
+
+
+/*.headimage img:hover{
+
+	transform: rotate(361deg);
+	box-shadow: 0 0 10px #795548;
+
+}*/
+
+.headnvg {
+
+	margin-top: 0;
+	text-align: center;
+	/*border: 1px solid #96c2f1;*/
+	/*border-bottom:1px solid #96c2f1;*/
+	padding: 30px,40px,24px;
+
+}
+
+.headnvg ul {
+
+	margin: 20px;
+
+}
+
+.headnvg ul li{
+
+	padding-left: 10px;
+
+}
+
+.headone {
+
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+	border-top:1px solid #96c2f1; 
+	/*border-bottom: 1px solid #96c2f1;*/
+	border-right: 1px solid #96c2f1;
+	border-left: 1px solid #96c2f1;
+	
+
+}
+
+.mainbody {
+	/*border-top:1px solid #96c2f1; */
+	border-bottom: 1px solid #96c2f1;
+	border-right: 1px solid #96c2f1;
+	border-left: 1px solid #96c2f1;
+	/*background-color: #D0D0D0;*/
+
+	/*margin-bottom: 20px;*/
+}
+
+
+.mod-archive__list li{line-height:30px; margin-bottom:2px; }
+.mod-archive__time {padding-right:10px;float:right;color:#666;font-family:"Microsoft JhengHei",sans-serif;font-size:14px}@media screen and (max-width:500px){.mod-archive__list li span,.mod-archive__list li time{display:none}}
+
+.article {
+
+	border-bottom: 1px solid #96c2f1;
+	border-right: 1px solid #96c2f1;
+	border-left: 1px solid #96c2f1;
+	margin-bottom: 20px;
+	padding:10px;
+
+}
+
+.titleinfo {
+
+	text-align: center;
+	border-bottom: 1px solid #96c2f1;
+	margin: 0;
+
+}
+
+.articleinfo {
+
+	text-align: left;
+}
+
+.mynav {
+
+	width: 100%;max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+.myfooter {
+
+	text-align: center;
+	border-bottom: 1px solid #96c2f1;
+	border-right: 1px solid #96c2f1;
+	border-left: 1px solid #96c2f1;
+	margin-bottom: 20px;
+}
+
+.myfooterrow {
+
+	padding:10px;
+
+}
+
+.article {
+
+	text-align: center;
+	border-bottom: 1px solid #96c2f1;
+	border-right: 1px solid #96c2f1;
+	border-left: 1px solid #96c2f1;
+}
+
+.articleinfo {font-size:18px;text-align:justify}
+.articleinfo p{margin-top:0;margin-bottom:30px;word-break:break-all}
+.articleinfo strong{color:#000;font-weight:600}
+.articleinfo img{max-width:100%;height:auto}
+.articleinfo {font-size:16px;line-height:1.5;text-align:justify}
+.articleinfo p{margin-bottom:1.2em}
+
+/*文章内样式*/
+
+
+.title {
+
+	border-bottom: 1px solid #96c2f1;
+
+}
+
+.notfount {
+
+	border-left:1px solid #96c2f1;
+	border-right: 1px solid #96c2f1;
+	border-bottom: 1px solid #96c2f1;
+	text-align: center;
+	padding:10px;
+
+}
+
+.gallery {
+
+	padding:5px;
+
+}
+
+
+.iconlink {
+
+	color:grey;
+
+}
+
+.iconlink:hover{
+
+	color:	#2894FF;
+
+}
+
+.gallery-link {
+
+	text-align: center;
+	padding: 10px;
+
+}
+
+.gallery-link li{
+
+	margin: 5px;
+
+}
+
+.gallery-statement {
+
+	padding:10px;
+
+}
+
+.gallery-statement p {
+
+	padding:5px;
+
+}
+
+/* 分页效果，上一页，下一页*/
+.page-nav {
+
+	list-style-type: none;
+    color: #aaa;
+    text-align: center;
+
+}
+
+.page-nav .current {
+    border-radius: 50%;
+    background: #96c2f1;
+    box-shadow: 1px 2px 3px #ddd;
+}
+
+.page-nav li {
+	border:1px solid #96c2f1;
+    display: inline-block;
+    float: none;
+    padding: 5px 10px 5px 10px;
+    margin:0 5px 10px 5px;
+    /*background-color: red;*/
+}
+
+/*链接效果*/
+
+a {
+	/*color: #61BFC1;*/
+	color:#4682B4;
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	font-family: Times, TimesNR, 'New Century Schoolbook', Georgia, 'New York', serif;
+	text-decoration: none;
+	vertical-align: baseline;
+	position:relative;
+}
+
+
+a:hover {
+	text-decoration: none;
+	/*color: #61BFC1;*/
+	color:#4682B4;
+}
+
+a:visited {
+
+	/*color: #61BFC1;*/
+	color:#4682B4;
+
+}
+
+a::after{
+    content:'';
+    display:block;
+    /*开始时候下划线的宽度为0*/
+    width:0;
+    height:1px;
+    position:absolute;
+    left:0;
+    bottom:-1px;
+    background:#61BFC1;
+    /*这里我们设定所有改变都有动画效果，可以自己指定样式才有动画效果*/
+    transition:all 0.3s ease-in-out;
+}
+
+a:hover::after{
+    width:100%;
+}
+
+
+.tags {
+
+	margin:0 auto;
+	text-align:center;
+	border: 1px solid #96c2f1;
+	border-top: 0;
+
+}
