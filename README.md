@@ -7,7 +7,7 @@
 
 主题名来源于黑客电影 WhoamI 里的传奇团队，CLAY
 
-网站地址：[pinsily.site](pinsily.site)
+网站地址：[http://pinsily.site](http://pinsily.site)
 
 ------
 ### 2018.01.20
