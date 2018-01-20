@@ -17,6 +17,157 @@
 
 		<div class="row" id="row">
 
+
+			<!-- <div class="col-md-4 col-sm-6"> -->
+				<div class="onenote">
+					<div class="on-title"><p>Tulip.18-01-20</p></div>
+					<div class="on-picture"><img src="http://owgxfd8jv.bkt.clouddn.com/118470-106.jpg"></div>
+					<div class="on-body" style="text-align: center;">
+						<p>我不是不伤不痛不难过</p>
+						<p>我只是不美不好都不说</p>
+					</div>
+					<div class="on-from"><p>李荣浩《不说》</p></div>
+				</div>
+			<!-- </div> -->
+
+
+			<!-- <div class="col-md-4 col-sm-6"> -->
+				<div class="onenote">
+					<div class="on-title"><p>Tulip.18-01-19</p></div>
+					<div class="on-picture"><img src="http://owgxfd8jv.bkt.clouddn.com/239869-0.jpg"></div>
+					<div class="on-body" style="text-indent: 28px;">
+						<p>做生活的导演，不成，次之，做演员，再次之，做观众</p>
+						
+					</div>
+					<div class="on-from"><p>From 木心</p></div>
+				</div>
+			<!-- </div> -->
+
+
+			<!-- <div class="col-md-4 col-sm-6"> -->
+				<div class="onenote">
+					<div class="on-title"><p>Tulip.18-01-18</p></div>
+					<div class="on-picture"><img src="http://owgxfd8jv.bkt.clouddn.com/112548-106.jpg"></div>
+					<div class="on-body" style="text-indent: 28px;">
+						<p>我这一生无做坏事，为何会这样</p>
+						
+					</div>
+					<div class="on-from"><p>From 张国荣</p></div>
+				</div>
+			<!-- </div> -->
+
+
+			<!-- <div class="col-md-4 col-sm-6"> -->
+				<div class="onenote">
+					<div class="on-title"><p>Tulip.18-01-17</p></div>
+					<div class="on-picture"><img src="http://owgxfd8jv.bkt.clouddn.com/248913-106.jpg"></div>
+					<div class="on-body" style="text-indent: 28px;">
+						<p>佛说，空，并不是无</p>
+					
+					</div>
+					<div class="on-from"><p>From None</p></div>
+				</div>
+			<!-- </div> -->
+
+			<!-- <div class="col-md-4 col-sm-6"> -->
+				<div class="onenote">
+					<div class="on-title"><p>Tulip.18-01-16</p></div>
+					<div class="on-picture"><img src="http://owgxfd8jv.bkt.clouddn.com/239976-106.jpg"></div>
+					<div class="on-body" style="text-indent: 28px;">
+						<p>身为年长者最大的修养，就是控制住批评年轻人的欲望</p>
+						
+					</div>
+					<div class="on-from"><p>From 毛姆</p></div>
+				</div>
+			<!-- </div> -->
+
+
+			<!-- <div class="col-md-4 col-sm-6"> -->
+				<div class="onenote">
+					<div class="on-title"><p>Tulip.18-01-15</p></div>
+					<div class="on-picture"><img src="http://owgxfd8jv.bkt.clouddn.com/92414-106.jpg"></div>
+					<div class="on-body" style="text-indent: 28px;">
+						<p>眼泪是挡不住子弹的，否则那该是个多么温柔的世界啊</p>
+						
+					</div>
+					<div class="on-from"><p>From 《神探夏洛克》</p></div>
+				</div>
+			<!-- </div> -->
+
+
+			<!-- <div class="col-md-4 col-sm-6"> -->
+				<div class="onenote">
+					<div class="on-title"><p>Tulip.18-01-14</p></div>
+					<div class="on-picture"><img src="http://owgxfd8jv.bkt.clouddn.com/148081-106.jpg"></div>
+					<div class="on-body" style="text-indent: 28px;">
+						<p>人应竭尽所能，再听天由命</p>
+						
+					</div>
+					<div class="on-from"><p>From 《最后的武士》</p></div>
+				</div>
+			<!-- </div> -->
+
+
+			<!-- <div class="col-md-4 col-sm-6"> -->
+				<div class="onenote">
+					<div class="on-title"><p>Tulip.18-01-13</p></div>
+					<div class="on-picture"><img src="http://owgxfd8jv.bkt.clouddn.com/92414-106.jpg"></div>
+					<div class="on-body" style="text-indent: 28px;">
+						<p>你表面上的不屑，是因为骨子里的不敢</p>
+						
+					</div>
+					<div class="on-from"><p>From 毕淑敏</p></div>
+				</div>
+			<!-- </div> -->
+
+			<!-- <div class="col-md-4 col-sm-6"> -->
+				<div class="onenote">
+					<div class="on-title"><p>Tulip.18-01-12</p></div>
+					<div class="on-picture"><img src="http://owgxfd8jv.bkt.clouddn.com/304518-106.jpg"></div>
+					<div class="on-body" style="text-align: center;">
+						<p>把发热的脸颊</p>
+						<p>埋在柔软的积雪里一般</p>
+						<p>想那么恋爱一下看看</p>
+					</div>
+					<div class="on-from"><p>From 石川啄木</p></div>
+				</div>
+			<!-- </div> -->
+
+			<!-- <div class="col-md-4 col-sm-6"> -->
+				<div class="onenote">
+					<div class="on-title"><p>Tulip.18-01-11</p></div>
+					<div class="on-picture"><img src="http://owgxfd8jv.bkt.clouddn.com/341373-106.jpg"></div>
+					<div class="on-body" style="text-indent: 28px;">
+						<p>你真美啊，请停一停</p>
+					</div>
+					<div class="on-from"><p>From 《浮士德》</p></div>
+				</div>
+			<!-- </div> -->
+
+			<!-- <div class="col-md-4 col-sm-6"> -->
+				<div class="onenote">
+					<div class="on-title"><p>Tulip.18-01-10</p></div>
+					<div class="on-picture"><img src="http://owgxfd8jv.bkt.clouddn.com/274063-106.jpg"></div>
+					<div class="on-body" style="text-indent: 28px;">
+						<p>我最难受的是不能向你准确表达我的心情和我感到的一切一切</p>
+						
+					</div>
+					<div class="on-from"><p>村上春树《奇鸟行状录》</p></div>
+				</div>
+			<!-- </div> -->
+
+			<!-- <div class="col-md-4 col-sm-6"> -->
+				<div class="onenote">
+					<div class="on-title"><p>Tulip.18-01-09</p></div>
+					<div class="on-picture"><img src="http://owgxfd8jv.bkt.clouddn.com/112560-106.jpg"></div>
+					<div class="on-body" style="text-indent: 28px;">
+						<p>我从来不崩溃瓦解，因为我从不曾完好无缺</p>
+						
+					</div>
+					<div class="on-from"><p>From 安迪·沃霍尔</p></div>
+				</div>
+			<!-- </div> -->
+
 			<!-- <div class="col-md-4 col-sm-6"> -->
 				<div class="onenote">
 					<div class="on-title"><p>Tulip.18-01-08</p></div>
@@ -38,7 +189,7 @@
 						<p>- Please use one word to describe your girlfriend.</p>
 						<p>- Where?</p>
 					</div>
-					<div class="on-from"><p>From No</p></div>
+					<div class="on-from"><p>From None</p></div>
 				</div>
 			<!-- </div> -->
 
