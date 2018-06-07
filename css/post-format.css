@@ -20,9 +20,13 @@
 .articleinfo {
 
 	font-family: Verdana,Arial,Helvetica,sans-serif;
-    	font-size: 10px;
+    	font-size: 14px;
     	line-height: 2.8;
 
+}
+
+.articleinfo center {
+	font-family: KaiTi;
 }
 
 .articleinfo img{

@@ -46,15 +46,86 @@
 		minsold      = Math.floor(60*(e_hrsold-hrsold)),
 		seconds      = Math.floor(60*(e_minsold-minsold));
 
-		span_dt_dt.innerHTML="<font color=black>"+daysold+"</font> 天 <font color=black>"+hrsold+"</font> 时 <font color=black>"+minsold+"</font> 分 <font color=black>"+seconds+"</font> 秒";} 
+		$("#blog_age").html("<font color='black'>"+daysold+"</font> 天 <font color='black'>"+hrsold+"</font> 时 <font color='black'>"+minsold+"</font> 分 <font color='black'>"+seconds+"</font> 秒");
+		// ="<font color=black>"+daysold+"</font> 天 <font color=black>"+hrsold+"</font> 时 <font color=black>"+minsold+"</font> 分 <font color=black>"+seconds+"</font> 秒";
+	} 
 	show_date_time();
+
+</script>
+
+
+<span class="visiters" id="vvvvvv">
+	
+</span>
+
+<script language="JavaScript"> 
+	var caution = false;
+	function setCookie(name, value, expires, path, domain, secure) { 
+		var curCookie = name + "=" + escape(value) + ((expires) ? "; expires=" + expires.toGMTString() : "") + ((path) ? "; path=" + path : "") + ((domain) ? "; domain=" + domain : "") + ((secure) ? "; secure" : "");
+		if (!caution || (name + "=" + escape(value)).length <= 4000) 
+			document.cookie = curCookie; 
+		else if (confirm("Cookie exceeds 4KB and will be cut!")) 
+			document.cookie = curCookie; 
+	} 
+
+	function getCookie(name) { 
+		var prefix = name + "="; 
+		var cookieStartIndex = document.cookie.indexOf(prefix); 
+		if (cookieStartIndex == -1) 
+			return null;
+		var cookieEndIndex = document.cookie.indexOf(";", cookieStartIndex + prefix.length);
+		if (cookieEndIndex == -1) 
+			cookieEndIndex = document.cookie.length; 
+		return unescape(document.cookie.substring(cookieStartIndex + prefix.length, cookieEndIndex)); 
+	} 
+
+	function deleteCookie(name, path, domain) { 
+		if (getCookie(name)) { 
+			document.cookie = name + "=" + ((path) ? "; path=" + path : "") + ((domain) ? "; domain=" + domain : "") + "; expires=Thu, 01-Jan-70 00:00:01 GMT";
+		} 
+	} 
+
+	function fixDate(date) { 
+		var base = new Date(0); 
+		var skew = base.getTime(); 
+		if (skew > 0) 
+			date.setTime(date.getTime() - skew); 
+	} 
+
+
+	var now = new Date(); 
+	console.log("1");
+	fixDate(now); 
+	console.log("2");
+	now.setTime(now.getTime() + 365 * 24 * 60 * 60 * 1000); 
+	console.log("3");
+	var visits = getCookie("counter");
+	console.log("4"); 
+	if (!visits) 
+		visits = 1; 
+	else 
+		visits = parseInt(visits) + 1;
+	console.log("5"); 
+	setCookie("counter", visits, now);
+	console.log("6"); 
+	//document.write("您是第" + visits + "访客！")
+	//window.alret("您是第" + visits + "访客！")
+
+	$("#vvvvvv").html("<p>您是第" + visits + "访客！</p>")
+	console.log("7");
+
+	$(".visiters").prepend("<p>您是第" + visits + "访客！</p>");
+
+	$("#vvvvvv").html("<p>您是第" + visits + "访客！</p>")
 
 </script>
 
 
 
 
-<p style="color: grey;"><h6>本站已运行: <span id="span_dt_dt"></span></h6></p>
+
+
+<p style="color: grey;"><h6>本站已运行: <span id="blog_age"></span></h6></p>
 <p style="color:grey;"><h6>@Copyright 2017 by pinsily,@Power by typecho</h6></p> 
 
 
@@ -64,8 +135,7 @@
 
 
     
-	
-	<!-- <script src="<?php $this->options->themeUrl('js/baguetteBox.min.js');?>"></script> -->
+	<script src="<?php $this->options->themeUrl('js/baguetteBox.min.js');?>"></script>
 	<script src="<?php $this->options->themeUrl('js/love.js');?>"></script>
 	<script type="text/javascript" color="0,0,0" opacity='0.7' zIndex="-2" count="99" src="//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
 	

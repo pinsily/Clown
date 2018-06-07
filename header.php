@@ -21,9 +21,11 @@
 		<link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
 		<link href="<?php $this->options->themeUrl('css/bootstrap.min.css'); ?>" rel="stylesheet">
 	    <link href="<?php $this->options->themeUrl('css/style.css'); ?>" rel="stylesheet">
+
+	    <script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>
 	    <script src="<?php $this->options->themeUrl('js/bootstrap.min.js');?>"></script>
 		<link href="<?php $this->options->themeUrl('css/post-format.css'); ?>" rel="stylesheet">
-		<script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>
+		
 
 	</head>
 
@@ -52,7 +54,7 @@
 				         <span class="icon-bar"></span>
 				         <span class="icon-bar"></span>
 				       </button>
-				      <a href="http://pinsily.site" class="navbar-brand">Clown</a> 
+				      <a href="http://blog.pinsily.site" class="navbar-brand">Clown</a> 
 				  </div>
 				  <div class="collapse navbar-collapse navbar-responsive-collapse">
 				    	<ul class="nav navbar-nav" style="padding:0;margin: 0;">
